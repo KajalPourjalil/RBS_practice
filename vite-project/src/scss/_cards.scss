@@ -1,6 +1,12 @@
-.card {
-    background-color: #eee;
+.card-group {
+    background-color: pink;
     position: absolute;
     text-align: center;
     height: 50%;
+    
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
 }
