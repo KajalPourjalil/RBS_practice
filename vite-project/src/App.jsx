@@ -1,12 +1,16 @@
 import React from 'react'
 import "../src/scss/main.scss";
-import { Header } from './Components/Header'
+import { NavBar } from './Components/Navbar'
+import Container from './Components/Container';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 
   return (
     <div>
-    <Header/>
+    <NavBar/>
+    <Container/>
     </div>
   )
 }
