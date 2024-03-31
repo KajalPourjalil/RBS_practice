@@ -1,6 +1,30 @@
 .navbar {
-    background-color: lightseagreen;
-    color: white;
-    margin: 0;
-}
+  background-color: lightseagreen;
+  color: white;
+  margin: 0;
 
+  .horizontal-list {
+     list-style-type: none;
+     padding: 0;
+  }
+
+  .horizontal-list li {
+    display: inline-block; /* Displays list items horizontally */
+    margin-left: 15px; /* Adds spacing between items */
+    margin-top: 13px;
+  }
+
+//   img {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+  button{
+    background-color: pink;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 20px;
+    border: 0;
+  }
+}

@@ -4,8 +4,18 @@ import React from "react";
 export class NavBar extends React.Component {
     render() {
         return (
-            <div>
-            <h1 className="navbar" >Practicing React Bootstrap and Sass</h1>
+            <div className="navbar">
+            <ul className="horizontal-list">
+                <li>All Products</li>
+                <li>Latest Arrivals</li>
+                <li>Trending</li>
+                <li></li>
+            </ul>
+            <div className="logo">
+                <img src="" alt="logo"/>
+            </div>
+            <img src="" alt="shopping cart"/>
+            <button>Sign up / Log In</button>
             </div>
         )
     }
