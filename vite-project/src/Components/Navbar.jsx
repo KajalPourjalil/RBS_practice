@@ -6,14 +6,10 @@ export class NavBar extends React.Component {
     render() {
         return (
             <div className="navbar">
-            <ul className="horizontal-list">
-                <li>All Products</li>
-                <li>Latest Arrivals</li>
-                <li>Trending</li>
-                <li></li>
-            </ul>
             <div className="logo">
-                <img src={logo} alt="logo" width={118} height={118}/>
+                <img src={logo} alt="logo" width={58} height={58}>
+                    {/* <a></a> */}
+                </img>
             </div>
             <img className="cart-logo" src={cart} alt="shopping cart"/>
             <button>Sign up / Log In</button>
