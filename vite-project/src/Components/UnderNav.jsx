@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class UnderNav extends Component {
   render() {
     return (
-      <div>
+      <div className="undernav">
         <ul className="horizontal-list">
                 <li>All Products</li>
                 <li>Latest Arrivals</li>

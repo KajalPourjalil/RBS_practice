@@ -1,6 +1,10 @@
-.horizontal-list {
+.undernav {
+  background-color: whitesmoke;
+
+  .horizontal-list {
     list-style-type: none;
     padding: 0;
+    // background-color: whitesmoke;
  }
 
  .horizontal-list li {
@@ -8,4 +12,9 @@
    margin-left: 15px; /* Adds spacing between items */
    margin-top: 13px;
    font-weight: 500;
+   border-bottom: 1px solid #ccc;
  }
+
+
+}
+
