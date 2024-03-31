@@ -1,6 +1,5 @@
 import React from "react";
-// import { Navbar, Container, Nav, Row, Col } from "react-bootstrap";
-
+import logo from "../assets/img/favpng_logo-symbol-graphic-design.png"
 export class NavBar extends React.Component {
     render() {
         return (
@@ -12,7 +11,7 @@ export class NavBar extends React.Component {
                 <li></li>
             </ul>
             <div className="logo">
-                <img src="" alt="logo"/>
+                <img src={logo} alt="logo" width={118} height={118}/>
             </div>
             <img src="" alt="shopping cart"/>
             <button>Sign up / Log In</button>
