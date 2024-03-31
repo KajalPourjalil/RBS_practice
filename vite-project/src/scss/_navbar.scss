@@ -16,10 +16,17 @@
     font-weight: 500;
   }
 
-//   .logo{
-//     width: 30pm;
-//     height: 30pm;
-//   }
+  .logo {
+    position: relative;
+    left: 90px;
+  }
+
+  .cart-logo {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 265px;
+  }
 
   button{
     background-color: pink;
