@@ -12,8 +12,8 @@ function App() {
     <div>
     <NavBar/>
     <UnderNav/>
-    <Container/>
-    <Footer/>
+    {/* <Container/> */}
+    {/* <Footer/> */}
     </div>
   )
 }

@@ -10,3 +10,56 @@
 @import "_container";
 @import "_cards";
 @import "_footer";
+
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+// 1288
+// 1024
+// 768
+// 640
+// 475
+
+
+
+@media (max-width: 1536px) {
+    .container{
+        max-width: 1536px;
+    }
+}
+
+@media (max-width: 1288px) {
+    .container{
+        max-width: 1288px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container{
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 475px) {
+    .container{
+        max-width: 475px;
+    }
+}
+
